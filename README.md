@@ -2,6 +2,8 @@
 
 In addition to the [Code Review Checklist](https://gist.github.com/kashifrazzaqui/44b868a59e99c2da7b14) you should also look for these Terraform specific code review items
 
+* [ ] Is the Terraform version up to date: for example required_version = "0.13.0"
+* [ ] Make sure the terraform module github repository is in a seperate reposityroy not in a subfolder.
 * [ ] Are all providers used in the terraform scripts [versioned](https://www.terraform.io/docs/configuration/providers.html#provider-versions) to prevent breaking changes in the future?
 * [ ] Are modules split into separate `.tf` files where appropriate?
 * [ ] Does the repository contain a `README.md` describing the architecture provisioned?
