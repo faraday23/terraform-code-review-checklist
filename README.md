@@ -20,4 +20,4 @@ In addition to the [Code Review Checklist](https://gist.github.com/kashifrazzaqu
 * [ ] Is `try` function used only with simple attribute references and type conversion functions?, as overuse of `try` function to suppress errors will lead to a configuration that is hard to understand and maintain
 * [ ] Are the explicit type conversion functions used to normalize types returned only in module outputs?, as the explicit type conversions are rarely necessary in Terraform because it will convert types automatically where required
 * [ ] Is `Sensitive` property on schema set to `true` for the fields that contains sensitive information?. This will prevent the field's values from showing up in CLI output
-* [ ] Are resource names more descriptive than "aduser1" and "aduser2" or "fw01" and "fw02".
+* [ ] * Are resource names more descriptive than "aduser1" and "aduser2" or "fw01" and "fw02"?
